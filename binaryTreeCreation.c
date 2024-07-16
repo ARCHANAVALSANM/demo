@@ -8,7 +8,7 @@ struct node {
 };
 
 struct node* create(int value) {
-    printf("%d",value);
+    printf("%d  tryyyyyy",value);
     struct node* newNode = malloc(sizeof(struct node));
     newNode->data = value;
     newNode->left = NULL;
